@@ -3,7 +3,7 @@ const repoCount = 20
 
 // console.log(`Hello my Name is ${name}, and my Repo Count is ${repoCount}`);
 
-const gameName = new String('Super-sonic')
+const gameName = new String('Super-sonic-hitesh')
 
 // console.log(gameName[1]);
 // console.log(gameName.__proto__);
@@ -30,4 +30,6 @@ const newStringOne = "   Rohit   "
 
 const url = "https://boreing.com/elonmusk%20rtyuio"
 
-console.log(url.replace('%20', '-'));
+// console.log(url.replace('%20', '-'));
+
+console.log(gameName.split( '-'));
