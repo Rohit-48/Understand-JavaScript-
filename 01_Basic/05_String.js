@@ -32,4 +32,4 @@ const url = "https://boreing.com/elonmusk%20rtyuio"
 
 // console.log(url.replace('%20', '-'));
 
-console.log(gameName.split( '-'));
+console.log(gameName.split('-'));
