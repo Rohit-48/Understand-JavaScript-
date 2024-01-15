@@ -1,2 +1,4 @@
-Vision = "To Create Something With AI Integration, & Portfolio"
-console.log(Vision)
+const string = "Hello, world!";
+const length = string.__proto__.length;
+
+console.log(length); // 13

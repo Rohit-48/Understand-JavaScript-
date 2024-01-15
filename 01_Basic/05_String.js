@@ -1,48 +1,56 @@
 const name = "Rohit"
-const repoCount = 20
+const repoCount = 40
 
-// console.log(`Hello my Name is ${name}, and my Repo Count is ${repoCount}`);
+// console.log(name + repoCount + " Value");
 
-const gameName = new String('Super-sonic-hitesh')
+// console.log(`Hello My Name Is ${name} and My repo Count is ${repoCount}`);
 
-// console.log(gameName[1]);
+
+const gameName = new String('Rohit-God-Time')
+
+// console.log(gameName[2]);
 // console.log(gameName.__proto__);
-
-
-// console.log(gameName.toUpperCase());
-// console.log(gameName.charAt(2));
-// console.log(gameName.indexOf('o'));
-// console.log(gameName.trimEnd())
+// console.log(gameName.toLocaleUpperCase());
+// console.log(gameName.toLocaleLowerCase());
+// console.log(gameName.bold());
+// console.log(gameName.charAt(3));
+// console.log(gameName.indexOf('t'));
 
 const newString = gameName.substring(0,4)
-
 // console.log(newString);
 
-const anotherString = gameName.slice(-8,4)
+const anotherString = gameName.slice(-8, -4);  // Start at index -8 (inclusive), end at index -4 (exclusive)
+// console.log(anotherString);  // Now this will print "GodT"
 
-// console.log(anotherString)
-
-
-const newStringOne = "   Rohit   "
-// console.log(newStringOne);
-// console.log(newStringOne.trim());
+const newStringone = "      Rohit       "
+// console.log(newStringone);
+// console.log(newStringone.trim());
 
 
-const url = "https://boreing.com/elonmusk%20rtyuio"
 
+const url = "https://rohit.ai/Rohit%20blog"
 // console.log(url.replace('%20', '-'));
 
-// console.log(gameName.split('-'));
+// console.log(url.includes("rohit"));
 
 
-const strPrim = "foo"; // A literal is a string primitive
-const strPrim2 = String(1); // Coerced into the string primitive "1"
-const strPrim3 = String(true); // Coerced into the string primitive "true"
-const strObj = new String(strPrim); // String with new returns a string wrapper object.
 
-// console.log(typeof strPrim); // "string"
-// console.log(typeof strPrim2); // "string"
-// console.log(typeof strPrim3); // "string"
-// console.log(typeof strObj); // "object"
+
+
+/**************Split ***********/
+
+console.log(gameName.split('-'));
+
+/**************More Example***********/
+const str1 = "The greatest glory in living lies not in never falling, but in rising every time we fall"
+
+const words = str1.split(' ');
+// console.log(words[4]);
+
+const char = str1.split('');
+// console.log(char[6]);
+
+const strcopy = str1.split();
+// console.log(strcopy);
 
 
